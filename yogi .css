@@ -42,7 +42,7 @@ nav ul li a {
 
 /* Menu Section */
 .menu-section {
-    background-image: url('/tisha/SPG SEM-3/bgimages/image.png');
+    background-image: url('./bgimages/image.png');
     background-size: cover;
     padding: 175px 20px;
     text-align: center;
