@@ -127,7 +127,7 @@ header {
 
 .hero {
     position: relative;
-    background-image: url('/tisha/SPG SEM-3/bgimages/bg2.jpeg');
+    background-image: url('./bgimages/bg2.jpeg');
     background-size: cover; /* Ensure the background image covers the entire area */
     background-position: center; /* Center the background image */
     text-align: center;
