@@ -42,7 +42,7 @@ nav ul li a {
 
 /* Menu Section */
 .menu-section {
-    background-image: url("/tisha/SPG SEM-3/iceberg/ib menu.avif");
+    background-image: url("./iceberg/ib menu.avif");
     background-size: cover;
     padding: 175px 20px;
     text-align: center;
