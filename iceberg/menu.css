@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:crimson;
+    color: #fff;
+    padding: 1rem 0;
+}
+header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.nav-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+}
+    
+.nav-links li {
+        margin-left: 25px;
+}
+    
+    .nav-links a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        transition: color 0.3s;
+    }
+    
+    .nav-links a:hover {
+        color: black;
+    }
+    
+    .auth-buttons button {
+        margin-left: 10px;
+        padding: 5px 15px;
+        border: none;
+        cursor: pointer;
+        background-color:whitesmoke ;
+        color: #9d2d3e;
+        transition: 0.3s;
+        
+    }
+    
+    .auth-buttons .signin {
+        background-color:rgb(9, 80, 9);
+    }
+    
+    .auth-buttons .signup {
+        background-color:whitesmoke;
+        color: #9d2d3e;
+    }
+    
+    .auth-buttons button:hover {
+        background-color:rgb(9,80,9);
+        color: #000;
+    }
+.menu-container {
+    width: 80%;
+    margin:100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+    
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-details p {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.item-price {
+    display: flex;
+    align-items: center;
+}
+
+.item-price span {
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.add-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #444;
+}
